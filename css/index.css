@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Spartan';
+}
+body {
+    height: auto;
+    max-width: 100%;
+    background-color: rgb(148, 185, 202);
+}
+
+.container {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.205);
+    width: 65%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 5%;
+    margin-top: 1.8%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#firstPara {
+    line-height: 27px;
+}
+
+div#socialProofContainer {
+    display: inline-flex;
+    margin-top: -100px;
+    padding-bottom: 5%;
+}
+.firstPerson img {
+    float: left;
+    margin-top: 3%;
+}
+.secondPerson img {
+    float: left;
+    margin-top: 3%;
+}
+.thirdPerson img {
+    float: left;
+    margin-top: 3%;
+}
+h5#verifiBuy {
+    position: relative;
+    left: 65px;
+    bottom: 27px;
+    font-weight: 300;
+}
+h5#name {
+    position: relative;
+    left: 21px;
+    bottom: 10px;
+}
+h5#verifiBuy2 {
+    position: relative;
+    left: 65px;
+    bottom: 27px;
+    font-weight: 300;
+}
+h5#name2 {
+    position: relative;
+    left: 21px;
+    bottom: 10px;
+}
+h5#verifiBuy3 {
+    position: relative;
+    left: 65px;
+    bottom: 27px;
+    font-weight: 300;
+}
+h5#name3 {
+    position: relative;
+    left: 21px;
+    bottom: 10px;
+}
+.firstPerson {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.205);
+    margin-right: 3%;
+    border-radius: 10px;
+    height: 200px;
+    text-align: left;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    padding: 3%;
+}
+.secondPerson {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.205);
+    margin-right: 3%;
+    margin-top: 2%;
+    height: 200px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: hsl(300, 43%, 22%);
+    padding: 3%;
+    color: white;
+}
+.thirdPerson {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.205);
+    border-radius: 10px;
+    height: 200px;
+    margin-top: 4%;
+    text-align: left;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    padding: 3%;
+}
+.colton {
+    border-radius: 100px;
+}
+.irene {
+    border-radius: 100px;
+}
+.anne {
+    border-radius: 100px;
+}
+
+
+div#ratingsContainer {
+    float: right;
+    margin-bottom: -60px;
+}
+#ratings {
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+    right: 380px;
+    bottom: 200px;
+    width: 100%;
+    padding-right: 20%;
+    padding-left: 75%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    color: hsl(300, 43%, 22%);
+}
+#ratings2 {
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+    right: 320px;
+    bottom: 183px;
+    width: 100%;
+    padding-right: 20%;
+    padding-left: 75%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    color: hsl(300, 43%, 22%);
+}
+#ratings3 {
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+    right: 260px;
+    bottom: 166px;
+    width: 100%;
+    padding-right: 20%;
+    padding-left: 75%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    color: hsl(300, 43%, 22%);
+}
+.stars, .stars2, .stars3 {
+    float: left;
+    position: relative;
+    right: 120px;
+    top: 19px;
+}
+
+
+.bgImgOne {
+    top: 0;
+}
+.bgImgTwo {
+    right: 150px;
+    bottom: 40px;
+}
+
+
+/*////////////////////////////////////
+MOBILE STUFF//////////////////////////
+////////////////////////////////////*/
+
+@media screen and (max-width: 1440px) {
+    .container { margin-top: -.17%; }
+    #ratings { left: -250px; }
+    #ratings2 { left: -200px; }
+    #ratings3 { left: -150px; }
+    .firstPerson { padding-bottom: 7.5%; }
+    .secondPerson { padding-bottom: 8%; }
+    .thirdPerson { padding-bottom: 7.5%; }
+    h1 { line-height: 50px; }
+}
+
+@media screen and (max-width: 375px) {
+    .bgImgOne { display: none; }
+    .bgImgTwo { display: none; }
+    html,body { max-width: 100%;}
+    .mobilebgOne { display: block; }
+    .mobilebgTwo { display: block; }
+    .container { text-align: center; }
+    h1 { font-size: 25px; line-height: 30px; text-align: center;}
+    #firstPara { font-size: 15px; }
+    #ratingsContainer { display: block; justify-content: center; margin-top: 100%;  }
+    #ratings { display: block; text-align: center; padding: 0; padding-left: 20%; padding-right: 20%; padding-top: 10%; margin-left: 94%; }
+    #ratings2 { display: block; text-align: center; padding: 0; padding-left: 20%; padding-right: 20%; padding-top: 10%; margin-left: 70%;  }
+    #ratings3 { display: block; text-align: center; padding: 0; padding-left: 20%; padding-right: 20%; padding-top: 10%; margin-left: 45.8%;  }
+    .stars { display: block; justify-content: center; position: relative; left: 50px; top: -6px; }
+    .stars2 { display: block; justify-content: center; position: relative; left: 50px; top: -6px; }
+    .stars3 { display: block; justify-content: center; position: relative; left: 50px; top: -6px; }
+    .firstPerson { padding-bottom: 14%; padding-left: 7%; padding-right: 7%; padding-top: 7%; }
+    .firstPerson p { margin-top: -30px; font-size: 15px; }
+    .secondPerson p { margin-top: -30px; font-size: 15px; }
+    .thirdPerson p { margin-top: -30px; font-size: 15px; }
+    .secondPerson { padding-bottom: 14%; padding-left: 7%; padding-right: 7%; padding-top: 7%; }
+    .thirdPerson { padding-bottom: 14%; padding-left: 7%; padding-right: 7%; padding-top: 7%; }
+    div#socialProofContainer { display: inline-block; margin-top: -50px; }
+}
+
+@media screen and (max-width: 4000px) {
+    .mobilebgOne { display: none; }
+    .mobilebgTwo { display: none; }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    color: red;
+    cursor: pointer;
+}
